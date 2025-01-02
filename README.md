@@ -1,6 +1,6 @@
 # GHOSTmine
 
-GHOSTmine allows Bulletin Board System (BBS) operators to configure and use doors (external programs or games) with outbound RLOGIN capabilities. This setup enables seamless user connections to remote services from within the BBS environment.
+GHOSTmine allows Bulletin Board System (BBS) operators to configure and use doors (external programs or games) with outbound RLOGIN capabilities. This setup enables seamless user connections to remote doors from within the BBS environment.
 
 ## Prerequisites
 
