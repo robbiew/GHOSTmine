@@ -1,8 +1,6 @@
 # GHOSTmine
-There is a special door code reserved for GHOSTnet operators' BBS: "GNAPP". This direct launch door code is the new member application door. It's not visible on the GHOSTmine menu.
 
-## How To Connect
-Configure a door using your BBS' outbound RLOGIN capability, with the door code "GNAPP" or use Apam's `rlogin-connect` application.
+Configure a door using your BBS' outbound RLOGIN capability or use Apam's `rlogin-connect` application.
 
 ## rlogin-connect
 The program can be obtained from `https://github.com/apamment/rlogin-connect`. Clone the repository and then build.
@@ -21,11 +19,11 @@ Create a `launch.sh` file and do chmod +x on it.
 
 export TERM=ansi-bbs
 
-NODE_NUMBER=$1         # pass the node number from your BBS
+NODE_NUMBER=$1            # pass the node number from your BBS
 URL="ghost-mine.com"
 PORT="3513"
-BBS_TAG="SJK"          # CHANGE to your BBS tag
-DOOR_CODE="XTRN=GNAPP" # Optionally disable to land user at menu menu
+BBS_TAG="SJK"             # CHANGE to your BBS tag
+DOOR_CODE="XTRN=CODE"     # CHANGE "CODE" to a valid door code, or disable to land user at menu menu
 
 # CHANGE to the path to your BBS' DOOR32.SYS file
 DOOR32_SYS_PATH=/talisman/temp/${NODE_NUMBER}/door32.sys
