@@ -1,9 +1,9 @@
 # GHOSTmine
 
-Configure a door using your BBS' outbound RLOGIN capability or use Apam's `rlogin-connect` application.
+Configure a door using your BBS' outbound RLOGIN capability or use the `rlogin-connect` application below.
 
 ## rlogin-connect
-The program can be obtained from `https://github.com/apamment/rlogin-connect`. Clone the repository and then build.
+The program can be obtained from `https://github.com/apamment/rlogin-connect`. Clone the repository and then build it.
 
 ### Build instructions
 - cmake
